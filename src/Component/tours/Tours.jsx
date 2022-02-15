@@ -1,19 +1,16 @@
-import toursData from "../../data/db.json"
+import toursData from "../../data/db.json";
+import Tour from "./Tour/Tour";
+import { Link, useParams } from "react-router-dom";
 
-function Tours(props){
+
+function Tours(){
+    
     return (
-        <div>
-         {    props.data.map(tour=>{
-                return(
-                 <>
-                <h1>Name : {tour.name} </h1>
-                <img src={tour.image}/>
-                </>
-                )
-         })
-
-}
-        </div>
+        
+        <>
+        <Tour data={toursData}/>
+        </>
+        
     );
 }
 export default Tours;
