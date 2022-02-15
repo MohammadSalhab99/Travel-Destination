@@ -8,9 +8,9 @@ import ReactDOM from "react-dom";
 function Home(){
   return(
  <>
-  <Header/>
+
     <Tours  props={toursData}/>
-    <Footer/>
+
   
     </>
 
