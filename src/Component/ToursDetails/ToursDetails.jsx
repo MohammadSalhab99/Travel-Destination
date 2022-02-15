@@ -34,6 +34,7 @@ function ToursDetails(props) {
           <img src={dataOfTour[0].image} alt='Tour' />
         </div>
         <div>Price: {dataOfTour[0].price} $</div>
+<br/>
       </aritcle>
     </div>
   );
